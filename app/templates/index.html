@@ -1,0 +1,69 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Arindam's Liver Care</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<div class="navbar">
+    <div class="logo-section">
+        <img src="{{ url_for('static', filename='images/dad.png') }}" class="logo-img">
+        <h2>Arindam's Liver Care</h2>
+    </div>
+
+    <div class="nav-buttons">
+        <a href="/" class="nav-btn">🏠 Home</a>
+        <a href="/about" class="nav-btn">ℹ️ About</a>
+    </div>
+</div>
+
+<div class="container">
+
+    <p class="subtitle">AI-powered fatty liver risk prediction system</p>
+
+    <form action="/predict" method="post">
+
+        <label>Age:</label>
+        <input type="number" name="age" required>
+
+        <label>Male (1/0):</label>
+        <input type="number" name="male" required>
+
+        <label>Weight:</label>
+        <input type="number" name="weight" required>
+
+        <label>Height:</label>
+        <input type="number" name="height" required>
+
+        <label>BMI:</label>
+        <input type="number" name="bmi" required>
+
+        <label>Follow-up Time:</label>
+        <input type="number" name="futime" required>
+
+        <label>Cholesterol:</label>
+        <input type="number" name="chol" required>
+
+        <label>DBP:</label>
+        <input type="number" name="dbp" required>
+
+        <label>FIB4:</label>
+        <input type="number" name="fib4" required>
+
+        <label>HDL:</label>
+        <input type="number" name="hdl" required>
+
+        <label>SBP:</label>
+        <input type="number" name="sbp" required>
+
+        <button type="submit">Predict</button>
+
+    </form>
+
+</div>
+
+</body>
+</html>

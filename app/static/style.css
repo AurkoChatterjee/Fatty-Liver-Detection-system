@@ -1,0 +1,159 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;  /* FIX: white background */
+    margin: 0;
+    padding: 0;
+    color: black;  /* FIX: force text visible */
+}
+
+.container {
+    width: 60%;
+    margin: auto;
+    margin-top: 40px;
+    background: #f9f9f9;
+    padding: 30px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+h2 {
+    text-align: center;
+    color: #000;
+}
+
+.subtitle {
+    text-align: center;
+    color: #555;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+button {
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px;
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.result-box {
+    text-align: center;
+}
+
+.high-risk {
+    color: red;
+}
+
+.low-risk {
+    color: green;
+}
+
+.explanation {
+    background: #eee;
+    padding: 10px;
+}
+/* LOGO */
+.logo-section {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo-img {
+    width: 50px;        /* control size */
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* TRIBUTE */
+.tribute {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.tribute-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.tribute-text {
+    font-style: italic;
+}
+
+/* PROFILE */
+.profile {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.profile-img-large {
+    width: 140px;
+    height: 140px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.header {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+/* NAVBAR */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #007BFF;   /* vibrant blue */
+    padding: 15px 30px;
+}
+
+/* LOGO */
+.logo-section {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+/* BUTTON CONTAINER */
+.nav-buttons {
+    display: flex;
+    gap: 12px;
+}
+
+/* BUTTON STYLE */
+.nav-btn {
+    background: white;
+    color: #007BFF;
+    padding: 8px 16px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+/* HOVER */
+.nav-btn:hover {
+    background: #0056b3;
+    color: white;
+    transform: scale(1.05);
+}

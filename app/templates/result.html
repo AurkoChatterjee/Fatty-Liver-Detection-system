@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Arindam's Liver Care</title>
+</head>
+<body>
+
+<h2>Arindam's Liver Care</h2>
+
+<h3>Prediction Result</h3>
+
+<h3>Risk: {{ risk }}%</h3>
+
+{% if risk > 50 %}
+<p style="color:red;"><b>High Risk</b></p>
+{% else %}
+<p style="color:green;"><b>Low Risk</b></p>
+{% endif %}
+
+<h3>Explanation:</h3>
+<p>{{ explanation }}</p>
+
+<br>
+<a href="/">⬅ Back to Home</a>
+
+</body>
+</html>

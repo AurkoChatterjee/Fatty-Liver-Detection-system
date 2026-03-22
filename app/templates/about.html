@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>About - Arindam's Liver Care</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<div class="navbar">
+    <div class="logo-section">
+        <img src="{{ url_for('static', filename='images/dad.png') }}" class="logo-img">
+        <h2>Arindam's Liver Care</h2>
+    </div>
+
+    <div>
+        <a href="/">Home</a>
+        <a href="/about">About</a>
+    </div>
+</div>
+
+<div class="container">
+
+    <h2>About This Project</h2>
+
+    <!-- TRIBUTE SECTION -->
+    <div class="tribute">
+        <img src="{{ url_for('static', filename='images/dad.png') }}" class="tribute-img">
+
+        <p class="tribute-text">
+            This project is dedicated to the loving memory of <b>Arindam Chatterjee</b><br>
+            (June 23, 1964 – January 25, 2026).<br><br>
+            His strength, wisdom, and guidance continue to inspire this work.
+        </p>
+    </div>
+
+    <hr>
+
+    <!-- YOUR PROFILE -->
+    <h2>Project Developer</h2>
+
+    <div class="profile">
+        <img src="{{ url_for('static', filename='images/me.jpg') }}" class="profile-img-large">
+
+        <div>
+            <h3>Aurko Chatterjee</h3>
+            <p>B.Tech CSE Student</p>
+
+            <p>
+                This project is an AI-powered healthcare system designed to predict fatty liver disease risk
+                using deep learning and clinical data analysis.
+            </p>
+
+            <p><b>Contact:</b></p>
+
+            <p>
+                📧 Email: <a href="mailto:aurko789chatterjee@gmail.com">aurko.789chatterjee@gmail.com</a><br>
+                💼 LinkedIn: <a href="www.linkedin.com/in/aurko-chatterjee-083717288" target="_blank">www.linkedin.com/in/aurko-chatterjee-083717288</a><br>
+                💻 GitHub: <a href="https://github.com/AurkoChatterjee" target="_blank">https://github.com/AurkoChatterjee</a>
+            </p>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>
